@@ -1,0 +1,259 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    line-height: 1.7;
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+.top{
+    position: fixed;
+    right: 30px;
+    bottom: 20px;
+    border-radius: 10px;
+    border: 1px solid blue;
+    background-color: whitesmoke;
+}
+.top a{
+    text-decoration: none;
+}
+.top a:hover{
+    cursor: pointer;
+    color: white;
+    background-color: blue;
+}
+.header{
+    background-color: rgb(100, 100, 207);
+    text-align: center;
+}
+.topicon{
+    display: inline-block;
+    padding-left: 20px;
+}
+.topline{
+    display: inline-block;
+    font-weight: bold;
+    color: white;
+    padding-left: 60px;
+}
+a input{
+    width: 20px;
+    height: 20px;
+    margin-left: 20px;
+    vertical-align: middle;
+}
+a input:hover{
+    cursor: pointer;
+}
+#a1 input{
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-image: url(photos/facebook\ icon.png);
+}
+#a2 input{
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-image: url(photos/twitter\ icon.png);
+}
+#a3 input{
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-image: url(photos/instagram\ icon.png);
+}
+#a4 input{
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-image: url(photos/youtube\ icon.jpg);
+}
+#a5 input{
+    background-repeat: no-repeat;
+    background-size: 17px;
+    background-image: url(photos/whatsapp\ icon.png);
+}
+.topbutton{
+    display: inline-block;
+    padding-left: 60px;
+}
+#b1{
+    padding: 6px 15px;
+    border: none;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.925);
+  border-radius: 10px;
+}
+#b1:hover{
+    cursor: pointer;
+}
+
+.header2{
+    background-color: whitesmoke;
+}
+.icon2{
+    display: inline-block;
+    padding-left: 100px;
+}
+.icon2 img{
+    vertical-align: middle;
+    width: 250px;
+    height: 70px;
+}
+#image1{
+    width: 100%;
+    height: auto;
+}
+.button2{
+    padding-left: 120px;
+    display: inline-block;
+    background-color: whitesmoke;
+}
+#b2{
+    padding: 6px 15px;
+    border: none;
+  text-align: center;
+  border-radius: 10px;
+  background-color: whitesmoke;
+}
+#b2:hover{
+    color: white;
+    background-color: rgb(100, 100, 207);
+    cursor: pointer;
+}
+.marq1{
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    margin: 10px 100px 1px 100px;
+    background-color: rgb(100, 100, 207);
+}
+.intro{
+    text-align: justify;
+    background-color: whitesmoke;
+    width: 100%;
+    height: auto;
+}
+.heading{
+    text-align: center;
+}
+.headgreen{
+    color: green;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+.headblue{
+    color: blue;
+    font-size: 48px;
+    font-weight: bold;
+    font-family: fantasy;
+}
+.para1{
+    margin: 2px 200px;
+    letter-spacing: 0.1em;
+}
+.center{
+    background-color: rgb(100, 100, 207);
+}
+.center1 img{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
+.center1{
+    margin: 25px;
+    display: inline-block;
+    text-align: center;
+}
+.center1 p{
+    font-size: 32px;
+    color: white;
+}
+.center1 h2{
+    color: white;
+}
+.mid{
+    background-color: whitesmoke;
+    min-height: 700px;
+    max-height: 2000px;
+}
+.mid1 img{
+    width: 80px;
+    height: 80px;
+    text-align: center;
+}
+.mid1{
+    height: 120px;
+    min-width: 250px;
+    max-width: 1000px;
+    margin: 35px;
+    padding: 60px;
+    background-color: white;
+    display: inline-block;
+    text-align: center;
+    box-shadow: 10px 10px 5px grey;
+}
+.mid1 h2{
+    color: blue;
+}
+.mission{
+    padding-left: 100px;
+    display: inline-block;
+    width: 60%;
+}
+.mission h1{
+    color: blue;
+}
+.mission1 h2{
+    display: inline-block;
+}
+.mission1{
+    text-align: center;
+    margin: 10px;
+    display: inline-block;
+    width: 350px;
+    background-color: whitesmoke;
+}
+.marq2 h1{
+    color: blue;
+}
+.marq2{
+    vertical-align: top;
+    padding-left: 30px;
+    display: inline-block;
+    width: 350px;
+}
+.gallery img{
+    width: 250px;
+    height: 150px;
+}
+.gallery{
+    text-align: center;
+}
+.footer{
+    min-height: 300px;
+    max-height: 1000px;
+    background-color: rgba(53, 48, 48, 0.993);
+}
+.footer img{
+    width: 20px;
+    height: 20px;
+}
+.foot p{
+    color: white;
+    line-height: 1cm;
+    padding: 50px 0px 50px 150px ;
+}
+.foot{
+    display: inline-block;
+}
+.contact{
+    color: white;
+    text-align: right;
+    display: inline-block;
+}
+.footer2{
+    text-align: center;
+    font-size: 16px;
+    padding-left: 20px;
+    color: white;
+    height: 40px;
+    background-color: blue;
+}
